@@ -13,6 +13,7 @@
 #include <functional>
 using namespace std; 
 // Data points
+
 class Point {
 private:
   float* coord; 
