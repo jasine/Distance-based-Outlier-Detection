@@ -11,7 +11,7 @@
 #include "KdTree.h" 
 
 //extern int DIM;
-class sorter {
+class sorter {      //判断Point p1是否小于Point p2
   int index ; 
 public:
   sorter(int idx) : index(idx) {}
@@ -20,7 +20,7 @@ public:
   }
 };
 
- float Distance( const Point& x, const Point& y ) {
+ float Distance( const Point& x, const Point& y ) {    //计算两个节点间的欧式距离
     float dist = 0 ; 
 	int DIM=x.DIM;
     for( int i = 0 ; i < DIM ; i ++ ) 
@@ -79,8 +79,8 @@ void kdtree::BuildTree(vector<Point*> vec) {
   int len = vec.size();
   vector<PVec> arr ;  
   for( int i = 0 ; i < DIM ; i ++ ) {
-    arr.push_back(vec) ; 
-    sort(arr[i].begin(), arr[i].end(),sorter(i)) ;  
+    arr.push_back(vec) ;    
+    sort(arr[i].begin(), arr[i].end(),sorter(i)) ;   //把arr中的数据降序排列
   }
   head = build(arr,0,len-1,0,0); 
 }
