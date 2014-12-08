@@ -32,6 +32,7 @@ public:
 	  left = n.left ;  
 	  right = n.right ; 
 	  parent = n.parent; 
+	  return *this;
   } ;  
   void setLeftChild(Node* n) { 
 	  left = n ; 

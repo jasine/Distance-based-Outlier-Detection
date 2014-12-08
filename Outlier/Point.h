@@ -37,6 +37,7 @@ public:
 	  for( int i = 0 ; i < DIM ; i ++ ) { 
 		  coord[i] = pnt.coord[i] ; 
 	  } 
+	  return *this;
   } ; 
   ~Point(){
      delete[] coord;
