@@ -27,7 +27,7 @@ vector<Point*> data;
 vector<string> ItemIds;
 Point* p;
 
-bool optionInput(int argc, char ** argv)
+void optionInput(int argc, char ** argv)
 {
 	int flag = 1;//1:参数正确 0:参数为帮助 -1:参数错误
 	if (argc == 2)
