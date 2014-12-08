@@ -24,6 +24,12 @@
     <ClInclude Include="Point.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="getopt.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tailor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="KdTree.cpp">
@@ -33,6 +39,9 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="Node.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="getopt.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
