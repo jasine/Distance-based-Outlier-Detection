@@ -42,14 +42,14 @@ void optionInput(int argc,char * argv[]){
 int main(int argc,char * argv[]) 
 { 
   //
-	/*dataFileName="Data3000.txt";
+	/*dataFileName="Data500.txt";
 	cout<<"NumberN:AttNum:Fraction:Radius"<<endl;
 	cin>>NItem>>NAttr>>fraction>>radius;*/
   //
   optionInput(argc,argv);
   string ItemId;
   float val; 
-  int DIM=NAttr;
+  int DIM=NAttr;    //Î¬Êý
   k=(int)NItem*(1-fraction)+1;
   in.open(dataFileName);
   //Read the data from file
@@ -57,7 +57,7 @@ int main(int argc,char * argv[])
   start=clock();
   while( !in.eof()) {
     p = new Point(DIM);  
-    in>>ItemId;
+    in>>ItemId;        
 	ItemIds.push_back(ItemId);
     for( int i =  0 ; i < DIM ; i ++ ) {
       in>> val ; 
