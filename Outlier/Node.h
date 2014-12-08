@@ -27,17 +27,42 @@ private:
 
 public:
   Node( Point* pnt) : p(pnt), left(0), right(0), parent(0), split(-1) { } ;
-  Node& operator= (Node& n) { p = n.p; left = n.left ;  right = n.right ; parent = n.parent; } ;  
-  void setLeftChild(Node* n) { left = n ; }; 
-  Node* getLeftChild() { return left ; } ;
-  void setRightChild(Node* n) { right = n ; }; 
-  Node* getRightChild() { return right ; } ; 
-  void setParent(Node* n) { parent = n ; };
-  Node* getParent() { return parent ; } ; 
-  void setPoint(Point* pnt) { p = pnt ; } ; 
-  Point* getPoint() { return p ; } ; 
-  void setSplitCoord(int split) { this->split = split ; } ; 
-  int getSplitCoord() { return split ; }
+  Node& operator= (Node& n) { 
+	  p = n.p; 
+	  left = n.left ;  
+	  right = n.right ; 
+	  parent = n.parent; 
+  } ;  
+  void setLeftChild(Node* n) { 
+	  left = n ; 
+  }; 
+  Node* getLeftChild() { 
+	  return left ; 
+  } ;
+  void setRightChild(Node* n) { 
+	  right = n ; 
+  }; 
+  Node* getRightChild() { 
+	  return right ; 
+  } ; 
+  void setParent(Node* n) { 
+	  parent = n ; 
+  };
+  Node* getParent() { 
+	  return parent ; 
+  } ; 
+  void setPoint(Point* pnt) { 
+	  p = pnt ; 
+  } ; 
+  Point* getPoint() { 
+	  return p ; 
+  } ; 
+  void setSplitCoord(int split) { 
+	  this->split = split ; 
+  } ; 
+  int getSplitCoord() { 
+	  return split ; 
+  }
 }; 
 
 class DNode  {

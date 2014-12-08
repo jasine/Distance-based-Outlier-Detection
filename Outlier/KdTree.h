@@ -14,7 +14,7 @@
 #include "Node.h" 
 
 using namespace std; 
-typedef vector<Point*> PVec ;
+typedef vector<Point*> PVec ;  //定义一个Point类型的vector
 
 // k-d tree class 
 class kdtree {
@@ -26,7 +26,8 @@ public:
   kdtree(int dim) : head(0) {DIM=dim ;} ; 
   void traverse( Node* n ) const { 
     if(n) {  
-       traverse(n->left) ; traverse(n->right) ; 
+       traverse(n->left) ; 
+	   traverse(n->right) ; 
     } 
   } ; 
   void BuildTree(vector<Point*> ); 
