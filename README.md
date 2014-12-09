@@ -25,3 +25,12 @@ itemID attr1 attr2 attr3 attr4 ...
 Number of outliers
 
 The IDs of the outliers Execution time
+
+##Testing Data 
+German.txt in Outlier folder. [Source of data](http://archive.ics.uci.edu/ml/datasets/ Statlog+%28 German+Credit+Data%29)
+
+##Performance
+![](http://jasine.u.qiniudn.com/datamining/a.png)
+![](http://jasine.u.qiniudn.com/datamining/b.png)
+![](http://jasine.u.qiniudn.com/datamining/c.png)
+
