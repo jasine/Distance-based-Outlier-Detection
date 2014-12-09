@@ -2,7 +2,7 @@ Distance-based-Outlier-Detection
 ================================
 
 A realization of Distance-based-Outlier-Detection in data mining
-
+![](http://jasine.u.qiniudn.com/datamining/d.png)
 ##Input parameters:
 -r Input file
 
@@ -34,3 +34,9 @@ German.txt in Outlier folder. [Source of data](http://archive.ics.uci.edu/ml/dat
 ![](http://jasine.u.qiniudn.com/datamining/b.png)
 ![](http://jasine.u.qiniudn.com/datamining/c.png)
 
+##Other Plantform
+[XCode Project](http://jasine.u.qiniudn.com/datamining/MacOS.zip)
+
+##Executable File
+Windows:[Download from Here](https://github.com/jasine/Distance-based-Outlier-Detection/releases)
+MacOS:[Download](http://jasine.u.qiniudn.com/datamining/Mac.zip)
