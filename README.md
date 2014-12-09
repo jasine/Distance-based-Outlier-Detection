@@ -39,4 +39,5 @@ German.txt in Outlier folder. [Source of data](http://archive.ics.uci.edu/ml/dat
 
 ##Executable File
 Windows:[Download from Here](https://github.com/jasine/Distance-based-Outlier-Detection/releases)
+
 MacOS:[Download](http://jasine.u.qiniudn.com/datamining/Mac.zip)
